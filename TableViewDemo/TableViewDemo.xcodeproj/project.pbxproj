@@ -13,6 +13,7 @@
 		47779BB41D9E5276006E81AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47779BB21D9E5276006E81AC /* Main.storyboard */; };
 		47779BB61D9E5276006E81AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47779BB51D9E5276006E81AC /* Assets.xcassets */; };
 		47779BB91D9E5276006E81AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47779BB71D9E5276006E81AC /* LaunchScreen.storyboard */; };
+		47779BC21D9E52B9006E81AC /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47779BC11D9E52B9006E81AC /* MyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		47779BB51D9E5276006E81AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47779BB81D9E5276006E81AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47779BBA1D9E5276006E81AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47779BC01D9E52B9006E81AC /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		47779BC11D9E52B9006E81AC /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				47779BAD1D9E5276006E81AC /* AppDelegate.m */,
 				47779BAF1D9E5276006E81AC /* ViewController.h */,
 				47779BB01D9E5276006E81AC /* ViewController.m */,
+				47779BC01D9E52B9006E81AC /* MyTableViewCell.h */,
+				47779BC11D9E52B9006E81AC /* MyTableViewCell.m */,
 				47779BB21D9E5276006E81AC /* Main.storyboard */,
 				47779BB51D9E5276006E81AC /* Assets.xcassets */,
 				47779BB71D9E5276006E81AC /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47779BB11D9E5276006E81AC /* ViewController.m in Sources */,
+				47779BC21D9E52B9006E81AC /* MyTableViewCell.m in Sources */,
 				47779BAE1D9E5276006E81AC /* AppDelegate.m in Sources */,
 				47779BAB1D9E5276006E81AC /* main.m in Sources */,
 			);
@@ -273,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BY48QUJK83;
 				INFOPLIST_FILE = TableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanzhang.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BY48QUJK83;
 				INFOPLIST_FILE = TableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanzhang.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
